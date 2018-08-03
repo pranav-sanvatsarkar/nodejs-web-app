@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <title>Whether App by Pranav</title>
+    <link rel="stylesheet" type="text/css" href="vendor_css/slds/styles/salesforce-lightning-design-system.min.css" />
+    <link rel="stylesheet" type="text/css" href="application_css/application.css" />
+    <script src="application_js/application.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="slds-form slds-form_stacked">
+            <div class="slds-form-element">
+                <label class="slds-form-element__label">Enter City</label>
+                <div class="slds-form-element__control">
+                    <input type="text" id="cityName" class="slds-input" placeholder="e.g. Pune" />
+                </div>
+            </div>
+            <div class="slds-form-element">
+                <div class="slds-grid slds-wrap">
+                    <div class="slds-col slds-size_1-of-2">
+                        <button class="slds-button slds-button_brand appbuttons">Get Whether</button>
+                    </div>
+                    <div class="slds-col slds-size_1-of-2 rightbuttoncontainer">
+                        <button class="slds-button slds-button_neutral appbuttons" onclick="resetInput('cityName');">Reset</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
